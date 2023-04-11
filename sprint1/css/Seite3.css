@@ -111,21 +111,34 @@ hr{
     padding-bottom: 10px;
     }
     .toptextleft{
-        padding-top: 10px;
-        position: absolute;
-        left: 0px;
-        padding-left: 10%;
-        color: black;
-        font-family: proxima-nova, sans-serif;
-        font-weight: 500;
-        font-size: 15px;
-        font-style: normal;
+      padding-top: 10px;
+      position: absolute;
+      left: 0px;
+      padding-left: 10%;
+      color: black;
+      font-family: proxima-nova, sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      font-style: normal;
       }
       .toptextright{
         padding-top: 10px;
         position: absolute;
         right: 0px;
         padding-right: 10%;
+        text-align: right;
+        color: black;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        font-style: normal;
+      }
+
+      .toptextcenter{
+        padding-top: 10px;
+        position: absolute;
+        right: 0px;
+        padding-right: 49%;
         text-align: right;
         color: black;
         font-family: proxima-nova, sans-serif;
