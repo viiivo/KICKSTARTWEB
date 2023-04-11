@@ -133,3 +133,20 @@ hr{
         font-size: 15px;
         font-style: normal;
       }
+
+      a:link {
+        text-decoration: none;
+      }
+    
+     /* mouse over link */
+     a:hover {
+      background-color: lightgrey;
+      color: white;
+      border-radius: 3rem;
+      padding: 0.5rem;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: black;
+      }

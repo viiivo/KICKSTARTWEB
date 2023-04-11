@@ -157,3 +157,20 @@ hr.new1 {
   .ausz{
     font-family: mandrel-normal, sans-serif;
   }
+
+  a:link {
+    text-decoration: none;
+  }
+
+ /* mouse over link */
+ a:hover {
+  background-color: white;
+  color: white;
+  border-radius: 3rem;
+  padding: 0.5rem;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
